@@ -1,0 +1,47 @@
+
+<!-- FILE: soccer.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Soccer — Friend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">FRIEND NAME</div>
+    <nav class="site-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="online.html" class="nav-link">Online Business</a>
+      <a href="referee.html" class="nav-link">Referee</a>
+      <a href="soccer.html" class="nav-link active">Soccer</a>
+      <a href="horn.html" class="nav-link">French Horn</a>
+      <a href="piano.html" class="nav-link">Piano</a>
+    </nav>
+    <button class="menu-btn" aria-label="toggle menu">☰</button>
+  </header>
+
+  <main class="page">
+    <section class="content">
+      <h1>Soccer</h1>
+      <p>Highlights, position, number, and short bio.</p>
+
+      <div class="image-uploader">
+        <label class="upload-label">Add action photo</label>
+        <input type="file" accept="image/*" id="soccer-img-input">
+        <div id="soccer-img-preview" class="img-preview">Drop an image or click to choose</div>
+      </div>
+
+      <h3>Stats</h3>
+      <table class="stats">
+        <tr><th>Season</th><th>Games</th><th>Goals</th><th>Assists</th></tr>
+        <tr><td>2025</td><td>0</td><td>0</td><td>0</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
