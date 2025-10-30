@@ -1,4 +1,3 @@
-<!-- FILE: script.js -->
 // Small JS helpers: mobile menu toggle, image preview hookups, active link highlighting.
 (function(){
   document.addEventListener('DOMContentLoaded', function(){
